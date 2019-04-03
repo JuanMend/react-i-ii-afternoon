@@ -1,0 +1,198 @@
+
+
+body{
+  background: #282c34;
+}
+
+.App-header
+ {
+   background-color: rgb(77, 168, 199);
+   justify-content: space-evenly;
+   align-items: center;
+   display: flex;
+   width: 100vw;
+   height: 10vh;
+   
+   
+ } 
+
+ header li
+ {
+    color: white;
+    
+ }
+
+ .nav
+ {
+   justify-content: space-evenly;
+   align-items: center;
+   display: flex;
+   list-style-type: none;
+   width: 90vw;
+ }
+
+ .left
+ {
+   width: 80vw;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+   
+ }
+
+
+.leftPrev
+{
+ 
+  color: lightblue; 
+  cursor: pointer;
+  width: 30vw;
+  outline: none;
+}
+
+.rightNext
+{
+  color: lightgray;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.footer-nav
+{
+  list-style-type: none;
+  width: 90vw;
+  height: 10vh;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+
+.foot-midnav
+{
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  width: 98vw;
+}
+
+.foot-midright
+{
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  width: 35vw;
+}
+
+
+ button
+{
+  height: 35px;
+  width: 80px;
+  border-radius: 15px;
+  cursor: pointer;
+  background: rgb(44, 151, 223);
+  color: white;
+  font-size: 15px;
+  outline: none;
+ 
+
+} 
+
+.btn-next
+{
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background: rgba(255,255,255,0)
+}
+  
+.btn-prev
+{
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background: rgba(255,255,255,0);
+}
+
+.numberSwitch
+{
+  float: right;
+  
+}
+
+
+.count
+{
+  color: white;
+}
+/* --------------------------- */
+
+.Name
+{
+  color: gray;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.List
+{
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+
+}
+
+.MovieList
+{
+    color: gray;
+   width: 40vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+strong
+{
+  color: black;
+
+}
+
+.bodystyle
+{
+
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 55px;
+  width: 76%;
+}
+
+.bodymid
+{
+  max-width: 50%;
+ 
+}
+
+.bodymid2
+{
+  width: 14vw;
+}
+.number
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  width: 98vw;
+ 
+}
+
+.numindex
+{
+  width: 60vw;
+  background: red;
+}
